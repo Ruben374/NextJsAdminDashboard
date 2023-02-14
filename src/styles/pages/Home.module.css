@@ -1,0 +1,14 @@
+.homeContainer {
+  padding: 2rem 3rem 1rem 3rem;
+  display: grid;
+  grid-template-columns: 15% auto;
+  height: 100vh;
+}
+
+.left {
+  margin-left: 2rem;
+  display: grid;
+  flex: 1;
+  height: 100%;
+  align-content: start;
+}

@@ -1,0 +1,22 @@
+.overwiew {
+  display: flex;
+  flex: 1;
+  gap: 10px;
+  flex-direction: column;
+}
+
+.overwiew > div:first-child {
+  display: flex;
+  align-items: center;
+  gap:10px;
+  border: 1px solid var(--secondary);
+  border-radius: 10px;
+  justify-content: space-between;
+  padding: 1.5rem 1rem;
+}
+.graphicsContainer{
+ 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

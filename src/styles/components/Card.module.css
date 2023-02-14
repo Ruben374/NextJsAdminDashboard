@@ -1,0 +1,47 @@
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  gap: 5px;
+  width: 23%;
+  border-right: 1px solid var(--secondary);
+  
+}
+
+.l {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+}
+.l >span{
+    font-weight: 600;
+    font-size: 0.9rem;
+    color:var(--secondary)
+}
+
+.cardContainer > p {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: var(--primary);
+}
+.cardContainer > div:last-child {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 1.8rem;
+  height: 1.8rem;
+  box-shadow: 1px 1px 0.2rem var(--secondary);
+  border-radius: 0.5rem;
+  z-index: 4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 2rem;
+}
+.cardContainer > span {
+font-size: 1.1rem;
+font-weight: 400;
+color: var(--primary);
+}
+

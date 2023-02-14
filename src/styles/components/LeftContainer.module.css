@@ -1,0 +1,46 @@
+.leftContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 4;
+  border-right: 2px solid var(--border);
+  overflow: auto;
+}
+.leftContainer > a:first-child {
+  margin-bottom: 2rem;
+}
+.bottomContainer {
+  height: 100%;
+  display: grid;
+  align-content: space-between;
+}
+.bottomContainer div {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-around;
+}
+.leftContainer a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.4rem;
+}
+.bottomContainer a > span {
+  margin-right: 2rem;
+}
+.bottomContainer a > img:first-child{
+    margin-right: 1rem;
+}
+
+.bottomContainer > div:first-child a > div {
+  width: 1rem;
+  height: 1rem;
+  background-color: var(--red);
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 0.5rem;
+}
